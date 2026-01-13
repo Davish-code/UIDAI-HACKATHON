@@ -77,8 +77,6 @@ The code generates a 4-panel dashboard highlighting:
 
 ---
 
-## 📂 Project Structure
-📦 IOT.Davish ┣ 📜 project_drishti_analysis.py # Main AI/Analysis Script ┣ 📂 data # Folder containing CSV datasets ┃ ┣ 📜 api_data_aadhar_enrolment_0_500000.csv ┃ ┣ 📜 api_data_aadhar_enrolment_500000_1000000.csv ┃ ┗ 📜 api_data_aadhar_enrolment_1000000_1006029.csv ┗ 📜 README.md # Project Documentation
 
 ## 🔮 Future Scope
 * **Real-Time Integration:** Deploying the Z-Score API to the live UIDAI dashboard.
