@@ -23,6 +23,8 @@ It solves two critical problems:
 ---
 
 ## 📂 Project Structure
+
+```text
 📦 UIDAI-HACKATHON
  ┣ 📜 project_drishti_analysis.py    # Main AI & Analysis Script
  ┣ 📜 dashboard.png                  # Output Visualizations (The Graph)
@@ -30,6 +32,7 @@ It solves two critical problems:
  ┣ 📜 api_data_aadhar_enrolment_500000_1000000.csv
  ┣ 📜 api_data_aadhar_enrolment_1000000_1006029.csv
  ┗ 📜 README.md                      # Project Documentation
+```
 ---
 ## 📊 Methodology & AI Models
 
