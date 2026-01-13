@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_33f6595055fafc1729c10ad20b629ad9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_33f6595055fafc1729c10ad20b629ad9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_33f6595055fafc1729c10ad20b629ad9 = L.map(
+                "map_33f6595055fafc1729c10ad20b629ad9",
+                {
+                    center: [20.5937, 78.9629],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e928f74d0887f5c74ec06a8e6c08bf80 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_e928f74d0887f5c74ec06a8e6c08bf80.addTo(map_33f6595055fafc1729c10ad20b629ad9);
+        
+    
+            var marker_d51236f617930452162d4600c18a5881 = L.marker(
+                [26.5942841, 85.500428],
+                {
+}
+            ).addTo(map_33f6595055fafc1729c10ad20b629ad9);
+        
+    
+            var icon_c1e66def56c49a05a1e808eb5aa80eea = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_80d400e49127a368ee7559fd3f5d76e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_710b9da6824c701c6d46e02e2d1e23e2 = $(`<div id="html_710b9da6824c701c6d46e02e2d1e23e2" style="width: 100.0%; height: 100.0%;"><b>District:</b> Sitamarhi<br><b>Vans:</b> 28</div>`)[0];
+                popup_80d400e49127a368ee7559fd3f5d76e2.setContent(html_710b9da6824c701c6d46e02e2d1e23e2);
+            
+        
+
+        marker_d51236f617930452162d4600c18a5881.bindPopup(popup_80d400e49127a368ee7559fd3f5d76e2)
+        ;
+
+        
+    
+    
+                marker_d51236f617930452162d4600c18a5881.setIcon(icon_c1e66def56c49a05a1e808eb5aa80eea);
+            
+    
+            var marker_df1ce6952334cb012491c81e2d6b4159 = L.marker(
+                [27.7343823, 81.47654],
+                {
+}
+            ).addTo(map_33f6595055fafc1729c10ad20b629ad9);
+        
+    
+            var icon_8f28462333e95b2761bc300b337501f4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_45532d0a85595026b8f3c6562864a962 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_631d7f05b9d30bb0fce6486ea5a479cd = $(`<div id="html_631d7f05b9d30bb0fce6486ea5a479cd" style="width: 100.0%; height: 100.0%;"><b>District:</b> Bahraich<br><b>Vans:</b> 26</div>`)[0];
+                popup_45532d0a85595026b8f3c6562864a962.setContent(html_631d7f05b9d30bb0fce6486ea5a479cd);
+            
+        
+
+        marker_df1ce6952334cb012491c81e2d6b4159.bindPopup(popup_45532d0a85595026b8f3c6562864a962)
+        ;
+
+        
+    
+    
+                marker_df1ce6952334cb012491c81e2d6b4159.setIcon(icon_8f28462333e95b2761bc300b337501f4);
+            
+    
+            var marker_13c4ae5260aa11e791391f675eeee06d = L.marker(
+                [27.0518367, 84.3351209],
+                {
+}
+            ).addTo(map_33f6595055fafc1729c10ad20b629ad9);
+        
+    
+            var icon_430018d82a1ebab9d2fdae19d9f142c3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_07b8447d458a42da9402e79ce89008eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1392e35354674b796c80c9938618d953 = $(`<div id="html_1392e35354674b796c80c9938618d953" style="width: 100.0%; height: 100.0%;"><b>District:</b> West Champaran<br><b>Vans:</b> 20</div>`)[0];
+                popup_07b8447d458a42da9402e79ce89008eb.setContent(html_1392e35354674b796c80c9938618d953);
+            
+        
+
+        marker_13c4ae5260aa11e791391f675eeee06d.bindPopup(popup_07b8447d458a42da9402e79ce89008eb)
+        ;
+
+        
+    
+    
+                marker_13c4ae5260aa11e791391f675eeee06d.setIcon(icon_430018d82a1ebab9d2fdae19d9f142c3);
+            
+    
+            var marker_ea2eb5fa3fc4993381c0063e0c0ba98f = L.marker(
+                [26.6393261, 84.8990136],
+                {
+}
+            ).addTo(map_33f6595055fafc1729c10ad20b629ad9);
+        
+    
+            var icon_7126e2b411044b78fe99b15416bc722d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_90290b19465cad2f0f73ef0af3494122 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_97d95d814ab7f8107089cd8ff0e6d900 = $(`<div id="html_97d95d814ab7f8107089cd8ff0e6d900" style="width: 100.0%; height: 100.0%;"><b>District:</b> East Champaran<br><b>Vans:</b> 20</div>`)[0];
+                popup_90290b19465cad2f0f73ef0af3494122.setContent(html_97d95d814ab7f8107089cd8ff0e6d900);
+            
+        
+
+        marker_ea2eb5fa3fc4993381c0063e0c0ba98f.bindPopup(popup_90290b19465cad2f0f73ef0af3494122)
+        ;
+
+        
+    
+    
+                marker_ea2eb5fa3fc4993381c0063e0c0ba98f.setIcon(icon_7126e2b411044b78fe99b15416bc722d);
+            
+    
+            var marker_4d29102c38c5e31bf3ff4a580ff1f639 = L.marker(
+                [25.4023736, 91.8317178],
+                {
+}
+            ).addTo(map_33f6595055fafc1729c10ad20b629ad9);
+        
+    
+            var icon_225d5a8831bf4a23d0c1805b8c0603e6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4f47c6af6ae77736e3734ef20ecaf3a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2fccd17abd52a29956ab4b833c4a0840 = $(`<div id="html_2fccd17abd52a29956ab4b833c4a0840" style="width: 100.0%; height: 100.0%;"><b>District:</b> East Khasi Hills<br><b>Vans:</b> 20</div>`)[0];
+                popup_4f47c6af6ae77736e3734ef20ecaf3a5.setContent(html_2fccd17abd52a29956ab4b833c4a0840);
+            
+        
+
+        marker_4d29102c38c5e31bf3ff4a580ff1f639.bindPopup(popup_4f47c6af6ae77736e3734ef20ecaf3a5)
+        ;
+
+        
+    
+    
+                marker_4d29102c38c5e31bf3ff4a580ff1f639.setIcon(icon_225d5a8831bf4a23d0c1805b8c0603e6);
+            
+    
+            var marker_a9be443da6f49c0f124f186c3640fc85 = L.marker(
+                [26.1482548, 85.3316097],
+                {
+}
+            ).addTo(map_33f6595055fafc1729c10ad20b629ad9);
+        
+    
+            var icon_b94ec5b8f23fb0c14f6a0bf31124fe7f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_db418812372c2cdea14dd42fd4eb0e4c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7e9de0bee14c7823e6b720f265eb8d3b = $(`<div id="html_7e9de0bee14c7823e6b720f265eb8d3b" style="width: 100.0%; height: 100.0%;"><b>District:</b> Muzaffarpur<br><b>Vans:</b> 19</div>`)[0];
+                popup_db418812372c2cdea14dd42fd4eb0e4c.setContent(html_7e9de0bee14c7823e6b720f265eb8d3b);
+            
+        
+
+        marker_a9be443da6f49c0f124f186c3640fc85.bindPopup(popup_db418812372c2cdea14dd42fd4eb0e4c)
+        ;
+
+        
+    
+    
+                marker_a9be443da6f49c0f124f186c3640fc85.setIcon(icon_b94ec5b8f23fb0c14f6a0bf31124fe7f);
+            
+    
+            var marker_39b26d87a32021c3f41650c4f2e07204 = L.marker(
+                [24.7964355, 85.0079563],
+                {
+}
+            ).addTo(map_33f6595055fafc1729c10ad20b629ad9);
+        
+    
+            var icon_057c393c43d05e31862f2cffc9bca712 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8b5064f9d931966b4c96dfe856a79528 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f999c07ade2b302dbe7b8b299799778 = $(`<div id="html_6f999c07ade2b302dbe7b8b299799778" style="width: 100.0%; height: 100.0%;"><b>District:</b> Gaya<br><b>Vans:</b> 18</div>`)[0];
+                popup_8b5064f9d931966b4c96dfe856a79528.setContent(html_6f999c07ade2b302dbe7b8b299799778);
+            
+        
+
+        marker_39b26d87a32021c3f41650c4f2e07204.bindPopup(popup_8b5064f9d931966b4c96dfe856a79528)
+        ;
+
+        
+    
+    
+                marker_39b26d87a32021c3f41650c4f2e07204.setIcon(icon_057c393c43d05e31862f2cffc9bca712);
+            
+    
+            var marker_e1dcd92d67af93ad84693c457366c6b2 = L.marker(
+                [26.3503076, 86.2296424],
+                {
+}
+            ).addTo(map_33f6595055fafc1729c10ad20b629ad9);
+        
+    
+            var icon_2f5bf29d64fde335793110b5c8ce7a2d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5f0398aac212128c2b4e0061debd4fec = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0b3082cda362d8dbc4b983e09ea0c3bf = $(`<div id="html_0b3082cda362d8dbc4b983e09ea0c3bf" style="width: 100.0%; height: 100.0%;"><b>District:</b> Madhubani<br><b>Vans:</b> 17</div>`)[0];
+                popup_5f0398aac212128c2b4e0061debd4fec.setContent(html_0b3082cda362d8dbc4b983e09ea0c3bf);
+            
+        
+
+        marker_e1dcd92d67af93ad84693c457366c6b2.bindPopup(popup_5f0398aac212128c2b4e0061debd4fec)
+        ;
+
+        
+    
+    
+                marker_e1dcd92d67af93ad84693c457366c6b2.setIcon(icon_2f5bf29d64fde335793110b5c8ce7a2d);
+            
+    
+            var marker_42c90bfcd066ef3f14b214622129ed9d = L.marker(
+                [27.3369978, 80.0998232],
+                {
+}
+            ).addTo(map_33f6595055fafc1729c10ad20b629ad9);
+        
+    
+            var icon_3da10e89fe29d06e63bc602f1aeb24cd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8e572c5f35fafefa17cbdfcfcb3f7722 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea1f14b09e37227baa0d98a7f9ecce63 = $(`<div id="html_ea1f14b09e37227baa0d98a7f9ecce63" style="width: 100.0%; height: 100.0%;"><b>District:</b> Hardoi<br><b>Vans:</b> 17</div>`)[0];
+                popup_8e572c5f35fafefa17cbdfcfcb3f7722.setContent(html_ea1f14b09e37227baa0d98a7f9ecce63);
+            
+        
+
+        marker_42c90bfcd066ef3f14b214622129ed9d.bindPopup(popup_8e572c5f35fafefa17cbdfcfcb3f7722)
+        ;
+
+        
+    
+    
+                marker_42c90bfcd066ef3f14b214622129ed9d.setIcon(icon_3da10e89fe29d06e63bc602f1aeb24cd);
+            
+    
+            var marker_db5a41a62baff3ec2a9083b4d14d37e9 = L.marker(
+                [26.4410107, 80.2652803],
+                {
+}
+            ).addTo(map_33f6595055fafc1729c10ad20b629ad9);
+        
+    
+            var icon_4f6dd82fb24e3a5738bf44c394a9e9df = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_12cdf1493699d0c9babd494575aba278 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_03949a3f8db724c88f2c2e6b33ebae3d = $(`<div id="html_03949a3f8db724c88f2c2e6b33ebae3d" style="width: 100.0%; height: 100.0%;"><b>District:</b> Kanpur Nagar<br><b>Vans:</b> 17</div>`)[0];
+                popup_12cdf1493699d0c9babd494575aba278.setContent(html_03949a3f8db724c88f2c2e6b33ebae3d);
+            
+        
+
+        marker_db5a41a62baff3ec2a9083b4d14d37e9.bindPopup(popup_12cdf1493699d0c9babd494575aba278)
+        ;
+
+        
+    
+    
+                marker_db5a41a62baff3ec2a9083b4d14d37e9.setIcon(icon_4f6dd82fb24e3a5738bf44c394a9e9df);
+            
+</script>
+</html>
