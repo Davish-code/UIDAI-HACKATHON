@@ -59,8 +59,8 @@ The code generates a 4-panel dashboard highlighting:
 
 1.  **Clone the Repository**
     ```bash
-    git clone [https://github.com/Davish-code/IOT.Davish.git](https://github.com/Davish-code/IOT.Davish.git)
-    cd IOT.Davish
+    git clone [https://github.com/Davish-code/UIDAI-HACKATHON.git](https://github.com/Davish-code/UIDAI-HACKATHON.git)
+    cd UIDAI-HACKATHON
     ```
 
 2.  **Install Dependencies**
