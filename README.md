@@ -22,13 +22,15 @@ It solves two critical problems:
 
 ---
 
-## 🛠️ Tech Stack
-| Component | Technology | Usage |
-| :--- | :--- | :--- |
-| **Language** | Python | Core Logic |
-| **Analysis** | Pandas, NumPy | ETL & Data Cleaning |
-| **AI / ML** | **Scikit-Learn** | K-Means Clustering, Isolation Forest |
-| **Viz** | Seaborn, Matplotlib | Insight Dashboards |
+## 📂 Project Structure
+```text
+📦 UIDAI-HACKATHON
+ ┣ 📜 project_drishti_analysis.py    # Main AI & Analysis Script
+ ┣ 📜 dashboard.png                  # Output Visualizations (The Graph)
+ ┣ 📜 api_data_aadhar_enrolment_0_500000.csv
+ ┣ 📜 api_data_aadhar_enrolment_500000_1000000.csv
+ ┣ 📜 api_data_aadhar_enrolment_1000000_1006029.csv
+ ┗ 📜 README.md                      # Project Documentation
 
 ---
 
