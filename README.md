@@ -8,7 +8,40 @@
 ![Geospatial](https://img.shields.io/badge/API-OpenStreetMap-green?style=for-the-badge&logo=openstreetmap&logoColor=white)
 
 ---
+graph TD
+    %% Nodes and Styles
+    style Start fill:#2c3e50,stroke:#333,stroke-width:2px,color:#fff
+    style End fill:#2c3e50,stroke:#333,stroke-width:2px,color:#fff
+    style AI fill:#e67e22,stroke:#d35400,stroke-width:2px,color:#fff
+    style Map fill:#27ae60,stroke:#2ecc71,stroke-width:2px,color:#fff
 
+    Start([📂 Raw UIDAI Data]) --> Process[⚙️ Data Cleaning & ETL]
+    
+    Process --> |Cleaned Data| Engine{🧠 AI Intelligence Engine}
+    
+    %% Branch 1: Trend Analysis
+    Engine --> |Time Series| Trend[📅 Temporal Analysis]
+    Trend --> Insight1[September Surge Detected]
+    
+    %% Branch 2: Segmentation
+    Engine --> |K-Means Clustering| Cluster[👥 Demographic Segmentation]
+    Cluster --> |School Share > 40%| Insight2[Target: School Hubs]
+    
+    %% Branch 3: Forensics
+    Engine --> |Isolation Forest| Audit[🕵️ Forensic Auditing]
+    Audit --> |Z-Score > 25| Insight3[🚨 Fraud Anomaly Alert]
+    
+    %% Outputs
+    Insight1 & Insight2 & Insight3 --> Dashboard[📊 Executive Dashboard]
+    
+    %% Final Action
+    Dashboard --> |Geocoding API| Map[🌍 Interactive Deployment Map]
+    
+    Map --> Action1[🚚 Deploy 142 Vans]
+    Map --> Action2[👮 Trigger Vigilance Team]
+    
+    Action1 & Action2 --> End([✅ Optimized Operations])
+---
 ## 📌 Overview
 **Project Drishti** is an advanced analytics framework designed to optimize the Aadhaar ecosystem. By integrating **Unsupervised Machine Learning**, **Forensic Statistical Auditing**, and **Live Geospatial APIs**, the system transforms static enrollment data into actionable field intelligence.
 
